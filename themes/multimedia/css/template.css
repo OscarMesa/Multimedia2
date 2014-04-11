@@ -25,16 +25,17 @@ left: 75px;
 }
 #controles .icono2 {
 bottom: 17px;
-left: 237px;
+left: 205px;
 }
 #controles .icono3 {
 bottom: 4px;
-left: 405px;
+left: 388px;
 }
 #controles .icono4 {
 bottom: 10px;
-left: 575px;
+left: 567px;
 }
+
 #controles .icono5 {
 bottom: 122px;
 left: 681px;
@@ -152,7 +153,7 @@ height: auto;
     
     
  #contenido-multimedia{
-        background: url("../imagenes/multimedia/FONDO MULTIMEDIA-01.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: url("../imagenes/multimedia/FONDO MULTIMEDIA-01.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
         background-size:858px 525px ;
         position: relative;
         height: 525px;
