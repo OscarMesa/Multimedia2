@@ -27,25 +27,59 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
 </article>
 
 
+<div id="dialog4" title="Dialog #4 (modal)">
+    <p>Another sample of modal dialogs - login forms. The dialog using 'highlight/scale' methods to 'show/hide'. Can be moved and closed with the 'x' icon.</p>
+    <form>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" /><br />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" value="" />
+        </fieldset>
+    </form>
+</div>
+
+
 <script type="text/javascript">
-            var ex = false;
-            $(document).on('click', '.load', function(e) {
-                var button = $(this);
-                $('#contenido-multimedia').fadeOut('slow', function() {
-                    $('#contenido-multimedia').load('<?php echo Yii::app()->createAbsoluteUrl('cuestionario') ?>/' + button.attr('href'), function() {
-                        $('#contenido-multimedia').fadeIn('slow');
-                        window.history.pushState('', 'Multimedia', '<?php echo Yii::app()->getBaseUrl(true) ?>/' + button.attr('href'));
-                    });
-                })
 
-                e.preventDefault();
+
+            $('#dialog4').dialog({
+                autoOpen: false,
+                show: 'highlight',
+                hide: 'scale',
+                modal: true,
+                buttons: {
+                    'Login': function() {
+                        var name = $('#name').val(), password = $('#password').val();
+                        var mydialog4 = $(this);
+
+                        if (name != '' && password != '') {
+                            $.ajax({
+                                type: 'POST',
+                                url: 'some.php',
+                                data: 'name=' + name + '&pass=' + password,
+                                success: function(msg) {
+                                    alert(msg);
+                                    $(mydialog4).dialog('close');
+                                }
+                            });
+                        }
+                    },
+                    'Close': function() {
+                        $(this).dialog('close');
+                    }
+                },
+                resizable: false,
+                width: '400px'
             });
 
-            $(document).on('click', '#finalizar', function(e) {
-                window.location.href = "<?php echo Yii::app()->getBaseUrl(true) ?>/cuestionario/generador";
-                e.preventDefault();
+            // dialog 4 open/close
+            $('.icono').click(function() {
+                if ($('#dialog4').dialog('isOpen') == true)
+                    $('#dialog4').dialog('close');
+                else
+                    $('#dialog4').dialog('open');
+                return false;
             });
-            setTimeout(function() {
-                $('.message').hide(600);
-            }, 5000);
+
 </script>
