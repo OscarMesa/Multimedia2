@@ -117,3 +117,16 @@ li {
 ul {
     margin: 0px;
 }
+
+.personaje-derecha {
+bottom: 0px;
+left: 0px;
+position: absolute;
+z-index: 10;
+}
+
+.personaje-izquierda {
+bottom: 0px;
+position: absolute;
+right: 0px;
+}
