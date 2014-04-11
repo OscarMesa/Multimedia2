@@ -61,7 +61,7 @@ root {
     bottom: 258px;
     left: 900px;
 }
-.icono.icono1 > img {
+.icono > img {
     height: 41%;
     width: 30%;
 }

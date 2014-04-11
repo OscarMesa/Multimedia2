@@ -7,11 +7,23 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
     <img class="personaje-derecha" src="themes/multimedia/imagenes/multimedia/FONDO MULTIMEDIA-03.png" width="300" height="500">
     <img class="personaje-izquierda" src="themes/multimedia/imagenes/multimedia/FONDO MULTIMEDIA-02.png" width="300" height="500">
     <div id="controles" class="grid-100">
-        <div class="icono icono1" href="bienvenida.html" onclick="icono(this)">
+        <div class="icono icono1">
             <img src="themes/multimedia/imagenes/multimedia/Botones-01.png">
         </div>
+        <div class="icono icono2">
+            <img src="themes/multimedia/imagenes/multimedia/Botones-02.png">
+        </div>
+
+        <div class="icono icono3" href="" onclick="icono(this)">
+            <img src="themes/multimedia/imagenes/multimedia/Botones-03.png">
+        </div>
+        <div class="icono icono4" href="" onclick="icono(this)">
+            <img src="themes/multimedia/imagenes/multimedia/Botones-04.png">
+        </div>
+        <div class="icono icono5" href="" onclick="icono(this)">
+            <img src="themes/multimedia/imagenes/multimedia/Botones-05.png">
+        </div>
     </div>
-    <area class="bnt1" shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
 </article>
 
 
