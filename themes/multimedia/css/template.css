@@ -63,11 +63,16 @@ left: 681px;
     bottom: 258px;
     left: 900px;
 }
-.icono > img {
-
-    width: 180px;
+.icono1 > img, .icono5 > img {
+width: 20px;
 }
-
+/*
+.icono > img {
+    width: 180px;
+}*/
+.icono1 > img, .icono5 > img {
+width: 130px;
+}
 .icono {
     cursor: pointer;
     min-height: 155px;
@@ -124,13 +129,18 @@ ul {
 bottom: 0px;
 left: 0px;
 position: absolute;
-z-index: 10;
+z-index: 0;
+width: 230px;
+height: auto;
 }
 
 .personaje-izquierda {
 bottom: 0px;
 position: absolute;
 right: 0px;
+z-index: 0;
+width: 230px;
+height: auto;
 }
 
 .bnt1{
