@@ -11,31 +11,33 @@ root {
 }
 
 #controles {
-    height: 247px;
-    padding-top: 24px;
-    position: static;
-    text-align: center;
-    width: 319px;
+height: 247px;
+/* padding-top: 271px; */
+position: absolute;
+text-align: center;
+width: 858px;
+bottom: 0;
 }
 #controles .icono1 {
-    bottom: 84px;
-    left: -56px;
+bottom: 84px;
+left: 75px;
+/* width: 150px; */
 }
 #controles .icono2 {
 bottom: 17px;
-left: -10px;
+left: 237px;
 }
 #controles .icono3 {
 bottom: 4px;
-left: 177px;
+left: 405px;
 }
 #controles .icono4 {
 bottom: 10px;
-left: 400px;
+left: 575px;
 }
 #controles .icono5 {
-bottom: 10px;
-left: 606px;
+bottom: 122px;
+left: 681px;
 }
 #controles .icono6 {
     bottom: 323px;
@@ -62,8 +64,8 @@ left: 606px;
     left: 900px;
 }
 .icono > img {
-    height: 41%;
-    width: 30%;
+
+    width: 180px;
 }
 
 .icono {
