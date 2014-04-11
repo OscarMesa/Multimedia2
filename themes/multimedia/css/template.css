@@ -1,0 +1,119 @@
+/* 
+    Document   : template
+    Created on : Apr 9, 2014, 5:52:51 PM
+    Author     : omesa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#controles {
+    height: 247px;
+    padding-top: 24px;
+    position: static;
+    text-align: center;
+    width: 319px;
+}
+#controles .icono1 {
+    bottom: 84px;
+    left: -56px;
+}
+#controles .icono2 {
+    bottom: 251px;
+    left: 354px;
+}
+#controles .icono3 {
+    bottom: 284px;
+    left: 432px;
+}
+#controles .icono4 {
+    bottom: 309px;
+    left: 510px;
+}
+#controles .icono5 {
+    bottom: 320px;
+    left: 574px;
+}
+#controles .icono6 {
+    bottom: 323px;
+    left: 645px;
+}
+#controles .icono7 {
+    bottom: 312px;
+    left: 698px;
+}
+#controles .icono8 {
+    bottom: 296px;
+    left: 759px;
+}
+#controles .icono9 {
+    bottom: 282px;
+    left: 807px;
+}
+#controles .icono10 {
+    bottom: 268px;
+    left: 846px;
+}
+#controles .icono11 {
+    bottom: 258px;
+    left: 900px;
+}
+.icono.icono1 > img {
+    height: 41%;
+    width: 30%;
+}
+
+.icono {
+    cursor: pointer;
+    min-height: 155px;
+    position: absolute;
+    text-align: center;
+}
+div#sec-formulario3,  div#sec-formulario1,  div#sec-formulario2 {
+    padding: 0px 10px;
+    left: 416px;
+    top: 55px;
+    position: absolute;
+    width: 225px;
+    height: 332px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: white;
+}
+#content1, #content2, #content3, #content4, #content5, #content6, #content7, #content8, #content9, #content10, #content11, #content12, #content13, #content14, #content15{
+    position: relative;
+    height: 500px;
+    width:921px; 
+    margin:0 auto;
+}
+label.control-label {
+    font-size: 12px;
+    background: #006CDF;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+input.btn {
+    position: absolute;
+    margin-bottom: 0px;
+    background: #F57E22;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+p {
+    font-size: 13px;
+    margin: 3px;
+}
+li {
+    font-size: 12px;
+}
+ul {
+    margin: 0px;
+}
