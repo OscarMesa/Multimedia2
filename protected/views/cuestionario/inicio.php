@@ -14,72 +14,342 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <img src="themes/multimedia/imagenes/multimedia/Botones-02.png">
         </div>
 
-        <div class="icono icono3" href="" onclick="icono(this)">
+        <div class="icono icono3" href="">
             <img src="themes/multimedia/imagenes/multimedia/Botones-03.png">
         </div>
-        <div class="icono icono4" href="" onclick="icono(this)">
+        <div class="icono icono4" href="">
             <img src="themes/multimedia/imagenes/multimedia/Botones-04.png">
         </div>
-        <div class="icono icono5" href="" onclick="icono(this)">
+        <div class="icono icono5" href="">
             <img src="themes/multimedia/imagenes/multimedia/Botones-05.png">
         </div>
     </div>
 </article>
 
 
-<div id="dialog4" title="Dialog #4 (modal)">
-    <p>Another sample of modal dialogs - login forms. The dialog using 'highlight/scale' methods to 'show/hide'. Can be moved and closed with the 'x' icon.</p>
-    <form>
-        <fieldset>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" /><br />
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" value="" />
-        </fieldset>
-    </form>
+<div id="dialog1" title="Videos inicial">
+    <div style="">
+        <div style="" id="accordion1" class="accordion">
+            <h3>Video Introducción</h3>
+            <div>
+                <p>
+                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/Comic-Introducción.mp4" type="video/mp4"></video>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/" target="_blank">Ver aqui!</a>
+                </p>
+            </div>
+            <h3>Video Caso central</h3>
+            <div>
+                <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" type="video/mp4"></video>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" target="_blank">Ver aqui!</a>
+                </p>
+            </div>
+        </div>
+    </div>    
 </div>
+
+
+<div id="dialog2" title="Momento 1">
+    <div style="">
+        <div id="accordion2">
+            <h3>Introduccion</h3>
+            <div>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/01_Introduccion al momento 1/comic_momento_01/Comic1.pdf" target="_blank">Abrir comic</a>
+                </p>
+            </div>
+            <h3>Guía de aprendizaje</h3>
+            <div>
+                <p>
+                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" type="video/mp4"></video>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" target="_blank">Ver aquí!</a>
+                </p>
+            </div>
+            <h3>Infográfico</h3>
+            <div>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
+                </p>
+            </div>
+            <h3>Proyecto de Vida</h3>
+            <div>
+                <p>
+                    <a href="http://127.0.0.1:4001/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
+                </p>
+            </div>
+            <h3>Mapa de evidencia</h3>
+            <div>
+                <p>
+                    <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg"/>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg" target="_blank">Ampliar!</a>
+                </p>
+            </div>
+            <h3>Infográfico</h3>
+            <div>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
+                </p>
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+
+
+<div id="dialog3" title="Momento 2">
+    <div style="">
+        <div id="accordion3">
+            <h3>Introducción</h3>
+            <div>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/01_Introduccion al momento 2/comic_momento_02/comic2.pdf" target="_blank">Abrir comic</a>
+                </p>
+            </div>
+            <h3>Guía de aprendizaje</h3>
+            <div>
+                <p>
+                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" type="video/mp4"></video>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" target="_blank">Ver aqui!</a>
+                </p>    
+            </div>
+            <h3>Mapa de evidencia</h3>
+            <div>
+                <p>
+                    <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/04_Mapa de evidencia/02_evidencia/evidencia 2-01.jpg"/>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/04_Mapa de evidencia/02_evidencia/evidencia 2-01.jpg" target="_blank">Ampliar!</a>
+                </p>
+            </div>
+             <h3>Infográfico</h3>
+            <div>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/03_Infograficos/02_infografico/INFROGRAFICO2.pdf" target="_blank">1. Abrir aquí!</a><br/>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/03_Infograficos/02_infografico/INFROGRAFICO2-1.pdf" target="_blank">2. Abrir aquí!</a>
+                </p>
+            </div>      
+        </div>
+    </div>    
+</div>
+
+
+
+
+
+<div id="dialog4" title="Momento 3">
+    <div style="">
+        <div id="accordion4">
+             <h3>Introducción</h3>
+            <div>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/01_Introduccion al momento 3/comic_momento_03/comic3.pdf" target="_blank">Abrir comic</a>
+                </p>
+            </div>
+            <h3>Guía de aprendizaje</h3>
+            <div>
+                <p>
+                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" type="video/mp4"></video>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" target="_blank">Ver aqui!</a>
+                </p>
+            </div>
+             <h3>Mapa de evidencia</h3>
+            <div>
+                <p>
+                    <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/04_Mapa de evidencia/03_evidencia/evidencia 3-01.jpg"/>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/04_Mapa de evidencia/03_evidencia/evidencia 3-01.jpg" target="_blank">Ampliar!</a>
+                </p>
+            </div>
+             <h3>Infográfico</h3>   
+            <div>
+                <p>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/03_Infograficos/03_infografico/INFROGRAFICO3.pdf" target="_blank">Abrir aquí!</a><br/>
+                </p>
+            </div> 
+        </div>
+    </div>    
+</div>
+
+
+
+
+
+<div id="dialog5" title="Video final">
+    <div style="">
+        <div id="accordion5">
+            <h3>Video Comic Final</h3>
+            <div>
+                <p>
+                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" type="video/mp4"></video>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" target="_blank">Ver aqui!</a>
+                </p>
+            </div>
+            <h3>Video Comic Conclusión</h3>
+            <div>
+                <p>
+                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" type="video/mp4"></video>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" target="_blank">Ver aqui!</a>
+                </p>
+            </div>
+
+        </div>
+    </div>    
+</div>
+
+
+
+
+
 
 
 <script type="text/javascript">
 
 
-            $('#dialog4').dialog({
-                autoOpen: false,
-                show: 'highlight',
-                hide: 'scale',
-                modal: true,
-                buttons: {
-                    'Login': function() {
-                        var name = $('#name').val(), password = $('#password').val();
-                        var mydialog4 = $(this);
 
-                        if (name != '' && password != '') {
-                            $.ajax({
-                                type: 'POST',
-                                url: 'some.php',
-                                data: 'name=' + name + '&pass=' + password,
-                                success: function(msg) {
-                                    alert(msg);
-                                    $(mydialog4).dialog('close');
-                                }
-                            });
-                        }
-                    },
-                    'Close': function() {
-                        $(this).dialog('close');
-                    }
-                },
-                resizable: false,
-                width: '400px'
-            });
+    $('#dialog1').dialog({
+        width: 800,
+        height: 600,
+        autoOpen: false,
+        show: 'highlight',
+        hide: 'scale',
+        modal: true,
+        buttons: {
+            'Salir': function() {
+                $(this).dialog('close');
+            }
+        },
+        resizable: false,
+    });
 
-            // dialog 4 open/close
-            $('.icono').click(function() {
-                if ($('#dialog4').dialog('isOpen') == true)
-                    $('#dialog4').dialog('close');
-                else
-                    $('#dialog4').dialog('open');
-                return false;
-            });
+
+
+
+    $('#dialog2').dialog({
+        width: 800,
+        height: 600,
+        autoOpen: false,
+        show: 'highlight',
+        hide: 'scale',
+        modal: true,
+        buttons: {
+            'Salir': function() {
+                $(this).dialog('close');
+            }
+        },
+        resizable: false,
+    });
+
+
+
+    $('#dialog3').dialog({
+        width: 800,
+        height: 600,
+        autoOpen: false,
+        show: 'highlight',
+        hide: 'scale',
+        modal: true,
+        buttons: {
+            'Salir': function() {
+                $(this).dialog('close');
+            }
+        },
+        resizable: false,
+    });
+
+    $('#dialog4').dialog({
+        width: 800,
+        height: 600,
+        autoOpen: false,
+        show: 'highlight',
+        hide: 'scale',
+        modal: true,
+        buttons: {
+            'Salir': function() {
+                $(this).dialog('close');
+            }
+        },
+        resizable: false,
+    });
+
+
+    $('#dialog5').dialog({
+        width: 800,
+        height: 600,
+        autoOpen: false,
+        show: 'highlight',
+        hide: 'scale',
+        modal: true,
+        buttons: {
+            'Salir': function() {
+                $(this).dialog('close');
+            }
+        },
+        resizable: false,
+    });
+
+    $("#accordion1").accordion({
+        heightStyle: "content",
+        collapsible: true,
+        autoHeight: false,
+        navigation: true
+    });
+    $("#accordion2").accordion({
+        heightStyle: "content",
+        collapsible: true,
+        autoHeight: false,
+        navigation: true
+    });
+    $("#accordion3").accordion({
+        heightStyle: "content",
+        collapsible: true,
+        autoHeight: false,
+        navigation: true
+    });
+    $("#accordion4").accordion({
+        heightStyle: "content",
+        collapsible: true,
+        autoHeight: false,
+        navigation: true
+    });
+    $("#accordion5").accordion({
+        heightStyle: "content",
+        collapsible: true,
+        autoHeight: false,
+        navigation: true
+    });
+
+    $('.icono1').click(function() {
+        if ($('#dialog1').dialog('isOpen') == true)
+            $('#dialog1').dialog('close');
+        else
+            $('#dialog1').dialog('open');
+        return false;
+    });
+    $('.icono2').click(function() {
+        if ($('#dialog2').dialog('isOpen') == true)
+            $('#dialog2').dialog('close');
+        else
+            $('#dialog2').dialog('open');
+        return false;
+    });
+    $('.icono3').click(function() {
+        if ($('#dialog3').dialog('isOpen') == true)
+            $('#dialog3').dialog('close');
+        else
+            $('#dialog3').dialog('open');
+        return false;
+    });
+    $('.icono4').click(function() {
+        if ($('#dialog4').dialog('isOpen') == true)
+            $('#dialog4').dialog('close');
+        else
+            $('#dialog4').dialog('open');
+        return false;
+    });
+    $('.icono5').click(function() {
+        if ($('#dialog5').dialog('isOpen') == true)
+            $('#dialog5').dialog('close');
+        else
+            $('#dialog5').dialog('open');
+        return false;
+    });
 
 </script>
