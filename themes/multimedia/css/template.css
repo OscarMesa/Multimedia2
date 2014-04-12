@@ -159,3 +159,7 @@ height: auto;
         width:858px; 
         margin:0 auto;
     }    
+    
+    .accordion div {
+        height: 400
+    }
