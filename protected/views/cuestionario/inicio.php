@@ -1,4 +1,5 @@
 <?php
+$host = new CHttpRequest();
 foreach (Yii::app()->user->getFlashes() as $key => $message) {
     echo '<div class="message flash-' . $key . '">' . $message . "</div>\n";
 }
@@ -44,6 +45,12 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" target="_blank">Ver aqui!</a>
                 </p>
             </div>
+            <h3>Elementos de Introducción</h3>
+            <div>
+                <p>
+                    <a href="<?php echo $host->getHostInfo(); ?>/ElementosIntroduccion.php" target="_blank">Ver aqui!</a>
+                </p>
+            </div>
         </div>
     </div>    
 </div>
@@ -74,7 +81,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <h3>Proyecto de Vida</h3>
             <div>
                 <p>
-                    <a href="http://127.0.0.1:4001/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
+                    <a href="<?php echo $host->getHostInfo(); ?>/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
                 </p>
             </div>
             <h3>Mapa de evidencia</h3>
