@@ -1,4 +1,5 @@
 <?php
+$host = new CHttpRequest();
 foreach (Yii::app()->user->getFlashes() as $key => $message) {
     echo '<div class="message flash-' . $key . '">' . $message . "</div>\n";
 }
@@ -32,17 +33,13 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
         <div style="" id="accordion1" class="accordion">
             <h3>Video Introducción</h3>
             <div>
-                <p>
-                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/Comic-Introducción.mp4" type="video/mp4"></video>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/" target="_blank">Ver aqui!</a>
-                </p>
+                <video controls preload="none" width="700px" height="400px" name="media1"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/Comic-Introducción.mp4" type="video/mp4"></video>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/" target="_blank">Ver aqui!</a>
             </div>
             <h3>Video Caso central</h3>
             <div>
-                <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" type="video/mp4"></video>
-                <p>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" target="_blank">Ver aqui!</a>
-                </p>
+                <video controls preload="none" width="700px" height="400px" name="media2"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" type="video/mp4"></video>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" target="_blank">Ver aqui!</a>
             </div>
         </div>
     </div>    
@@ -54,41 +51,29 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
         <div id="accordion2">
             <h3>Introduccion</h3>
             <div>
-                <p>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/01_Introduccion al momento 1/comic_momento_01/Comic1.pdf" target="_blank">Abrir comic</a>
-                </p>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/01_Introduccion al momento 1/comic_momento_01/Comic1.pdf" target="_blank">Abrir comic</a>
             </div>
             <h3>Guía de aprendizaje</h3>
             <div>
-                <p>
-                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" type="video/mp4"></video>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" target="_blank">Ver aquí!</a>
-                </p>
+                <video controls preload="none" width="700px" height="400px" name="media3"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" type="video/mp4"></video>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" target="_blank">Ver aquí!</a>
             </div>
             <h3>Infográfico</h3>
             <div>
-                <p>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
-                </p>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
             </div>
             <h3>Proyecto de Vida</h3>
             <div>
-                <p>
-                    <a href="http://127.0.0.1:4001/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
-                </p>
+                <a href="http://127.0.0.1:4001/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
             </div>
             <h3>Mapa de evidencia</h3>
             <div>
-                <p>
-                    <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg"/>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg" target="_blank">Ampliar!</a>
-                </p>
+                <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg"/>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg" target="_blank">Ampliar!</a>
             </div>
             <h3>Infográfico</h3>
             <div>
-                <p>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
-                </p>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
             </div>
         </div>
     </div>    
@@ -109,7 +94,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <h3>Guía de aprendizaje</h3>
             <div>
                 <p>
-                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" type="video/mp4"></video>
+                    <video controls preload="none" width="700px" height="400px" name="media4"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" type="video/mp4"></video>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" target="_blank">Ver aqui!</a>
                 </p>    
             </div>
@@ -120,7 +105,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/04_Mapa de evidencia/02_evidencia/evidencia 2-01.jpg" target="_blank">Ampliar!</a>
                 </p>
             </div>
-             <h3>Infográfico</h3>
+            <h3>Infográfico</h3>
             <div>
                 <p>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/03_Infograficos/02_infografico/INFROGRAFICO2.pdf" target="_blank">1. Abrir aquí!</a><br/>
@@ -138,7 +123,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
 <div id="dialog4" title="Momento 3">
     <div style="">
         <div id="accordion4">
-             <h3>Introducción</h3>
+            <h3>Introducción</h3>
             <div>
                 <p>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/01_Introduccion al momento 3/comic_momento_03/comic3.pdf" target="_blank">Abrir comic</a>
@@ -147,18 +132,18 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <h3>Guía de aprendizaje</h3>
             <div>
                 <p>
-                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" type="video/mp4"></video>
+                    <video controls preload="none" width="700px" height="400px" name="media5"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" type="video/mp4"></video>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" target="_blank">Ver aqui!</a>
                 </p>
             </div>
-             <h3>Mapa de evidencia</h3>
+            <h3>Mapa de evidencia</h3>
             <div>
                 <p>
                     <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/04_Mapa de evidencia/03_evidencia/evidencia 3-01.jpg"/>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/04_Mapa de evidencia/03_evidencia/evidencia 3-01.jpg" target="_blank">Ampliar!</a>
                 </p>
             </div>
-             <h3>Infográfico</h3>   
+            <h3>Infográfico</h3>   
             <div>
                 <p>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/03_Infograficos/03_infografico/INFROGRAFICO3.pdf" target="_blank">Abrir aquí!</a><br/>
@@ -178,24 +163,21 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <h3>Video Comic Final</h3>
             <div>
                 <p>
-                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" type="video/mp4"></video>
+                    <video controls preload="none" width="700px" height="400px" name="media6"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" type="video/mp4"></video>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" target="_blank">Ver aqui!</a>
                 </p>
             </div>
             <h3>Video Comic Conclusión</h3>
             <div>
                 <p>
-                    <video width="700px" height="400px" controls="" autoplay="" name="media"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" type="video/mp4"></video>
+                    <video controls preload="none" width="700px" height="400px" name="media7"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" type="video/mp4"></video>
                     <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" target="_blank">Ver aqui!</a>
                 </p>
             </div>
 
         </div>
     </div>    
-</div>
-
-
-
+</div>  
 
 
 
@@ -289,31 +271,36 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
-        navigation: true
+        navigation: true,
+        active: false
     });
     $("#accordion2").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
-        navigation: true
+        navigation: true,
+        active: false
     });
     $("#accordion3").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
-        navigation: true
+        navigation: true,
+        active: false
     });
     $("#accordion4").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
-        navigation: true
+        navigation: true,
+        active: false
     });
     $("#accordion5").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
-        navigation: true
+        navigation: true,
+        active: false
     });
 
     $('.icono1').click(function() {
@@ -349,7 +336,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             $('#dialog5').dialog('close');
         else
             $('#dialog5').dialog('open');
-        return false;
+        return false;active:2
     });
 
 </script>
