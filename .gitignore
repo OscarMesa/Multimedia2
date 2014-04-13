@@ -4,3 +4,7 @@ protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
 themes/classic/views/
+/themes/multimedia/multimedia_dvd/
+/themes/multimedia/multimedia_dvd.part1.rar
+/themes/multimedia/multimedia_dvd.part2.rar
+/themes/multimedia/multimedia_dvd.part3.rar
