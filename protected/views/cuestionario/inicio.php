@@ -41,6 +41,12 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
                 <video controls preload="none" width="700px" height="400px" name="media2"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" type="video/mp4"></video>
                 <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" target="_blank">Ver aqui!</a>
             </div>
+            <h3>Elementos de Introducción</h3>
+            <div>
+                <p>
+                    <a href="<?php echo $host->getHostInfo(); ?>/ElementosIntroduccion.php" target="_blank">Ver aqui!</a>
+                </p>
+            </div>
         </div>
     </div>    
 </div>
@@ -64,7 +70,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             </div>
             <h3>Proyecto de Vida</h3>
             <div>
-                <a href="http://127.0.0.1:4001/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
+                    <a href="<?php echo $host->getHostInfo(); ?>/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
             </div>
             <h3>Mapa de evidencia</h3>
             <div>
