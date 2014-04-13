@@ -34,17 +34,17 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <h3>Video Introducción</h3>
             <div>
                 <video controls preload="none" width="700px" height="400px" name="media1"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/Comic-Introducción.mp4" type="video/mp4"></video>
-                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/" target="_blank">Ver aqui!</a>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/" target="_blank">¡Ver aquí!</a>
             </div>
             <h3>Video Caso central</h3>
             <div>
                 <video controls preload="none" width="700px" height="400px" name="media2"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" type="video/mp4"></video>
-                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" target="_blank">Ver aqui!</a>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/02_Video Introduccion y caso central/CasoCentral.mp4" target="_blank">¡Ver aquí!</a>
             </div>
             <h3>Elementos de Introducción</h3>
             <div>
                 <p>
-                    <a href="<?php echo $host->getHostInfo(); ?>/ElementosIntroduccion.php" target="_blank">Ver aqui!</a>
+                    <a href="<?php echo $host->getHostInfo(); ?>/ElementosIntroduccion.php" target="_blank">¡Ver aquí!</a>
                 </p>
             </div>
         </div>
@@ -101,7 +101,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <div>
                 <p>
                     <video controls preload="none" width="700px" height="400px" name="media4"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" type="video/mp4"></video>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" target="_blank">Ver aqui!</a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/02_Guia de aprendizaje/Momento_2.mp4" target="_blank">¡Ver aquí!</a>
                 </p>    
             </div>
             <h3>Mapa de evidencia</h3>
@@ -139,7 +139,7 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <div>
                 <p>
                     <video controls preload="none" width="700px" height="400px" name="media5"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" type="video/mp4"></video>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" target="_blank">Ver aqui!</a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/02_Guia de aprendizaje/Momento_3.mp4" target="_blank">¡Ver aquí!</a>
                 </p>
             </div>
             <h3>Mapa de evidencia</h3>
@@ -170,14 +170,14 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <div>
                 <p>
                     <video controls preload="none" width="700px" height="400px" name="media6"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" type="video/mp4"></video>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" target="_blank">Ver aqui!</a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Final.mp4" target="_blank">¡Ver aquí!</a>
                 </p>
             </div>
             <h3>Video Comic Conclusión</h3>
             <div>
                 <p>
                     <video controls preload="none" width="700px" height="400px" name="media7"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" type="video/mp4"></video>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" target="_blank">Ver aqui!</a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/06_Video Final y Conclucion/Comic-Conclusión.mp4" target="_blank">¡Ver aquí!</a>
                 </p>
             </div>
 
