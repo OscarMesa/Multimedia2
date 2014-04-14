@@ -62,24 +62,24 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <h3>Guía de aprendizaje</h3>
             <div>
                 <video controls preload="none" width="700px" height="400px" name="media3"><source src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" type="video/mp4"></video>
-                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" target="_blank">Ver aquí!</a>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/02_Guia de aprendizaje/Momento_1.mp4" target="_blank">¡Ver aquí!</a>
             </div>
             <h3>Infográfico</h3>
             <div>
-                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">¡Ver aquí!</a>
             </div>
             <h3>Proyecto de Vida</h3>
             <div>
-                    <a href="<?php echo $host->getHostInfo(); ?>/ProyectoDeVida/" target="_blank">Abrir aquí!</a>
+                    <a href="<?php echo $host->getHostInfo(); ?>/ProyectoDeVida/" target="_blank">¡Abrir aquí!</a>
             </div>
             <h3>Mapa de evidencia</h3>
             <div>
                 <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg"/>
-                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg" target="_blank">Ampliar!</a>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/05_Mapa de evidencia/01_evidencia/evidencia 1-01.jpg" target="_blank">¡Ampliar!</a>
             </div>
             <h3>Infográfico</h3>
             <div>
-                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">Abrir aquí!</a>
+                <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/03_Momento 1/03_Infograficos/01_Infografico/INFROGRAFICO1.pdf" target="_blank">¡Abrir aquí!</a>
             </div>
         </div>
     </div>    
@@ -108,14 +108,14 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <div>
                 <p>
                     <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/04_Mapa de evidencia/02_evidencia/evidencia 2-01.jpg"/>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/04_Mapa de evidencia/02_evidencia/evidencia 2-01.jpg" target="_blank">Ampliar!</a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/04_Mapa de evidencia/02_evidencia/evidencia 2-01.jpg" target="_blank">¡Ampliar!</a>
                 </p>
             </div>
             <h3>Infográfico</h3>
             <div>
                 <p>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/03_Infograficos/02_infografico/INFROGRAFICO2.pdf" target="_blank">1. Abrir aquí!</a><br/>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/03_Infograficos/02_infografico/INFROGRAFICO2-1.pdf" target="_blank">2. Abrir aquí!</a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/03_Infograficos/02_infografico/INFROGRAFICO2.pdf" target="_blank">1. Abrir aquí</a><br/>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/04_Momento 2/03_Infograficos/02_infografico/INFROGRAFICO2-1.pdf" target="_blank">2. Abrir aquí</a>
                 </p>
             </div>      
         </div>
@@ -146,13 +146,13 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             <div>
                 <p>
                     <img style="width: 102%;" src="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/04_Mapa de evidencia/03_evidencia/evidencia 3-01.jpg"/>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/04_Mapa de evidencia/03_evidencia/evidencia 3-01.jpg" target="_blank">Ampliar!</a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/04_Mapa de evidencia/03_evidencia/evidencia 3-01.jpg" target="_blank">¡Ampliar!</a>
                 </p>
             </div>
             <h3>Infográfico</h3>   
             <div>
                 <p>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/03_Infograficos/03_infografico/INFROGRAFICO3.pdf" target="_blank">Abrir aquí!</a><br/>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>/themes/multimedia/multimedia_dvd/05_Momento 3/03_Infograficos/03_infografico/INFROGRAFICO3.pdf" target="_blank">¡Abrir aquí!</a><br/>
                 </p>
             </div> 
         </div>
