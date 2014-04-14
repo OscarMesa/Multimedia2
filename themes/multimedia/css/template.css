@@ -128,20 +128,20 @@ ul {
 
 .personaje-derecha {
 bottom: 0px;
-left: 0px;
+left: -103px;
 position: absolute;
 z-index: 0;
-width: 230px;
-height: auto;
+/*width: 230px;
+height: auto;*/
 }
 
 .personaje-izquierda {
-bottom: 0px;
+bottom: -15px;
+right: -71px;
 position: absolute;
-right: 0px;
 z-index: 0;
-width: 230px;
-height: auto;
+/*width: 230px;
+height: auto;*/
 }
 
 .bnt1{
@@ -153,14 +153,21 @@ height: auto;
     
     
  #contenido-multimedia{
-        background: url("../imagenes/multimedia/FONDO MULTIMEDIA-01.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: url("../imagenes/multimedia/bola con textos.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
         background-size:858px 525px ;
         position: relative;
         height: 525px;
         width:858px; 
-        margin:0 auto;
+       margin: 3% auto;
     }    
     
     .accordion div {
         height: 400
     }
+body{
+     background: url("../imagenes/multimedia/fondo-general.jpg");    
+     background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center; 
+     background-size:100% 100% ;
+}
