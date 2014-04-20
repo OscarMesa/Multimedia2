@@ -278,35 +278,50 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
         collapsible: true,
         autoHeight: false,
         navigation: true,
-        active: false
+        active: false,
+        activate: function( event, ui ) {
+            pauseVideo();
+        }
     });
     $("#accordion2").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
         navigation: true,
-        active: false
+        active: false,
+        activate: function( event, ui ) {
+            pauseVideo();
+        }
     });
     $("#accordion3").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
         navigation: true,
-        active: false
+        active: false,
+        activate: function( event, ui ) {
+            pauseVideo();
+        }
     });
     $("#accordion4").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
         navigation: true,
-        active: false
+        active: false,
+        activate: function( event, ui ) {
+            pauseVideo();
+        }
     });
     $("#accordion5").accordion({
         heightStyle: "content",
         collapsible: true,
         autoHeight: false,
         navigation: true,
-        active: false
+        active: false,
+        activate: function( event, ui ) {
+            pauseVideo();
+        }
     });
 
     $('.icono1').click(function() {
@@ -344,5 +359,11 @@ foreach (Yii::app()->user->getFlashes() as $key => $message) {
             $('#dialog5').dialog('open');
         return false;active:2
     });
-
+    
+    function pauseVideo()
+    {
+        $("video").each(function(e,i){
+        i.pause();
+    });
+    }
 </script>
